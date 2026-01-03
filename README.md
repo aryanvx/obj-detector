@@ -64,11 +64,11 @@ then modify `detector.py` to use your preferred camera by changing the `camera_i
 
 choose different model sizes for speed vs. accuracy tradeoff:
 
-- `'n'` (nano) - fastest, least accurate
-- `'s'` (small) - fast, good accuracy
-- `'m'` (medium) - balanced
-- `'l'` (large) - slower, very accurate
-- `'x'` (xlarge) - slowest, most accurate
+- `"n"` (nano) - fastest, least accurate
+- `"s"` (small) - fast, good accuracy
+- `"m"` (medium) - balanced
+- `"l"` (large) - slower, very accurate
+- `"x"` (xlarge) - slowest, most accurate
 
 change in `detector.py`:
 ```python
@@ -87,7 +87,7 @@ change in `detector.py`:
 detector.run_webcam(conf_threshold=0.5)  # adjust this value
 ```
 ## camera flip
-i flipped the camera cause i don't like looking at my inverted self.
+i flipped the camera cause i don't like looking at my inverted self. and i'm not telling you how to change it.
 
 ## detected obj classes
 
