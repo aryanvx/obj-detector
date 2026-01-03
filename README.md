@@ -1,8 +1,9 @@
-# Real-time object detection using YOLOv8
+# Real-time object detection w/ YOLOv8
 
-a Python-based real-time object detection system using YOLOv8 + OpenCV. Detects 80 different object classes through your webcam w/ bounding boxes & confidence scores.
+a Python-based real-time object detection system using YOLOv8 + OpenCV.
+it detects 80 different object classes through your webcam w/ bounding boxes & confidence scores.
 
-## feats
+## Features
 
 - real-time object detection using YOLOv8
 - supports 80 object classes (people, cars, phones, bottles, animals, etc.)
@@ -11,13 +12,13 @@ a Python-based real-time object detection system using YOLOv8 + OpenCV. Detects 
 - frame capture capability
 - live FPS counter
 
-## requirements
+## Requirements
 
 - Python 3.8+
 - webcam
 - macOS, Linux, or Windows
 
-## installation
+## Installation
 
 1. clone or download this repo
 
@@ -63,11 +64,11 @@ then modify `detector.py` to use your preferred camera by changing the `camera_i
 
 choose different model sizes for speed vs. accuracy tradeoff:
 
-- `"n"` (nano) - fastest, least accurate
-- `"s"` (small) - fast, good accuracy
-- `"m"` (medium) - balanced
-- `"l"` (large) - slower, very accurate
-- `"x"` (xlarge) - slowest, most accurate
+- `'n'` (nano) - fastest, least accurate
+- `'s'` (small) - fast, good accuracy
+- `'m'` (medium) - balanced
+- `'l'` (large) - slower, very accurate
+- `'x'` (xlarge) - slowest, most accurate
 
 change in `detector.py`:
 ```python
@@ -118,11 +119,11 @@ the model can detect 80 classes including:
 - increase confidence threshold to reduce detections
 - close other resource-intensive applications
 
-## license
+## License
 
 MIT
 
-## acks
+## Acknowledgments
 
 - built w/ [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - uses [OpenCV](https://opencv.org/) for video processing
