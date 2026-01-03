@@ -87,8 +87,7 @@ change in `detector.py`:
 detector.run_webcam(conf_threshold=0.5)  # adjust this value
 ```
 ## camera flip
-i'll spare you the embarassment: by default it will flip the camera so that you aren't inverted.<br>
-i don't know why you'd want you to change that, but in case you do:<br>
+i'll spare you the embarassment: by default it will flip the camera so that you aren't inverted. i don't know why you'd want you to change that, but in case you do:<br><br>
 add this line in the `run_webcam` method after `ret`, `frame = cap.read()`:
  ```py
 frame = cv2.flip(frame, 1)  # flip horizontally
