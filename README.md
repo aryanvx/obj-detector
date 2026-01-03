@@ -63,11 +63,11 @@ then modify `detector.py` to use your preferred camera by changing the `camera_i
 
 choose different model sizes for speed vs. accuracy tradeoff:
 
-- `'n'` (nano) - fastest, least accurate
-- `'s'` (small) - fast, good accuracy
-- `'m'` (medium) - balanced
-- `'l'` (large) - slower, very accurate
-- `'x'` (xlarge) - slowest, most accurate
+- `"n"` (nano) - fastest, least accurate
+- `"s"` (small) - fast, good accuracy
+- `"m"` (medium) - balanced
+- `"l"` (large) - slower, very accurate
+- `"x"` (xlarge) - slowest, most accurate
 
 change in `detector.py`:
 ```python
