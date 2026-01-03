@@ -1,6 +1,6 @@
 # Real-time object detection w/ YOLOv8
 
-a Python-based real-time object detection system using YOLOv8 + OpenCV.
+a Python-based real-time object detection system using YOLOv8 + OpenCV.<br>
 it detects 80 different object classes through your webcam w/ bounding boxes & confidence scores.
 
 ## Features
@@ -46,7 +46,7 @@ the first run will automatically download the YOLOv8 model (~6MB).
 
 ### controls
 
-**"q"** to quit the application
+**"q"** to quit the application<br>
 **"c"** to capture & save the current frame
 
 ### camera selection
