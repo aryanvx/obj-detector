@@ -87,7 +87,12 @@ change in `detector.py`:
 detector.run_webcam(conf_threshold=0.5)  # adjust this value
 ```
 ## camera flip
-i flipped the camera cause i don't like looking at my inverted self. and i'm not telling you how to change it.
+i'll spare you the embarassment: by default it will flip the camera so that you aren't inverted.<br>
+i don't know why you'd want you to change that, but in case you do:<br>
+add this line in the `run_webcam` method after `ret`, `frame = cap.read()`:
+ ```py
+frame = cv2.flip(frame, 1)  # flip horizontally
+```
 
 ## detected obj classes
 
