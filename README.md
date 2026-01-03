@@ -1,8 +1,8 @@
-# Real-time object detection w/ YOLOv8
+# Real-time object detection using YOLOv8
 
 a Python-based real-time object detection system using YOLOv8 + OpenCV. Detects 80 different object classes through your webcam w/ bounding boxes & confidence scores.
 
-## Features
+## feats
 
 - real-time object detection using YOLOv8
 - supports 80 object classes (people, cars, phones, bottles, animals, etc.)
@@ -11,13 +11,13 @@ a Python-based real-time object detection system using YOLOv8 + OpenCV. Detects 
 - frame capture capability
 - live FPS counter
 
-## Requirements
+## requirements
 
 - Python 3.8+
 - webcam
 - macOS, Linux, or Windows
 
-## Installation
+## installation
 
 1. clone or download this repo
 
