@@ -118,11 +118,11 @@ the model can detect 80 classes including:
 - increase confidence threshold to reduce detections
 - close other resource-intensive applications
 
-## License
+## license
 
 MIT
 
-## Acknowledgments
+## acks
 
 - built w/ [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - uses [OpenCV](https://opencv.org/) for video processing
